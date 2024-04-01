@@ -1,0 +1,145 @@
+.App {
+	text-align: center;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.App-logo {
+	height: 50px;
+	pointer-events: none;
+}
+
+.App-header {
+	min-height: 5vh;
+	display: flex;
+	position: fixed;
+	justify-content: space-between;
+	color: white;
+	padding: 20px 40px 20px 40px;
+	width: calc(100% - 8em);
+	color: #fff;
+}
+nav {
+	display: flex;
+}
+nav a {
+	margin-left: 20px;
+}
+nav a img {
+	width: 40px;
+}
+.navItem {
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+	height: 50px;
+}
+nav a:hover {
+	color: #fa7d05;
+}
+#home {
+	padding-left: 800px;
+	padding-top: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background-size: 1900px;
+}
+.tokenomics {
+	margin-top: 1500px;
+}
+
+.App-link {
+	color: #61dafb;
+}
+#buy {
+	border: 5px solid #fa7d05;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 20px;
+	font-size: 30px;
+	z-index: 99999;
+	color: #0b4cda;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+
+#buy a {
+}
+#buy:hover {
+	color: #fa7d05;
+	background-color: beige;
+}
+.description {
+	font-weight: bold;
+	padding-left: 50px;
+	padding-bottom: 30px;
+}
+.test {
+	width: 200px;
+	height: 500px;
+	display: block;
+	background-image: url("btoshi_letters.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.letters {
+	/* background-image: url("bt.png"); */
+	width: 200px;
+}
+.tokenomics {
+	margin-top: 565px;
+	height: 935px;
+}
+.boxes {
+	display: flex;
+	flex-direction: column;
+	place-items: center;
+}
+.box {
+	border: 3px solid #fa7d05;
+	border-radius: 50px;
+	width: 30%;
+	margin: 50px;
+}
+footer {
+	background-color: #e9f8ff;
+	height: 200px;
+	padding: 50px;
+}
+.social {
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+}
+.social img {
+	padding: 30px;
+	width: 40px;
+}
+.footerLogo {
+	display: flex;
+	justify-content: center;
+}
+.footerLetters {
+	width: 200px;
+	height: 650x;
+	display: block;
+	background-image: url("btoshi_letters.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-left: 5px;
+}
