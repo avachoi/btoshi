@@ -4,11 +4,15 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+.homePage {
 	background-image: url("background.png");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
+	height: 100vh;
+	border: 1px solid;
+	display: flex;
 }
-
 .App-logo {
 	height: 50px;
 	pointer-events: none;
@@ -20,12 +24,13 @@
 	position: fixed;
 	justify-content: space-between;
 	color: white;
-	padding: 20px 40px 20px 40px;
+	padding: 50px 40px 40px 40px;
 	width: calc(100% - 8em);
 	color: #fff;
 }
 nav {
 	display: flex;
+	padding-left: 50px;
 }
 nav a {
 	margin-left: 20px;
@@ -43,16 +48,11 @@ nav a:hover {
 	color: #fa7d05;
 }
 #home {
-	padding-left: 800px;
-	padding-top: 400px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	margin-left: 50%;
+	margin-right: 3%;
+	padding-top: 600px;
 
 	background-size: 1900px;
-}
-.tokenomics {
-	margin-top: 1500px;
 }
 
 .App-link {
@@ -101,9 +101,18 @@ a {
 	/* background-image: url("bt.png"); */
 	width: 200px;
 }
-.tokenomics {
-	margin-top: 565px;
+#tokenomics {
+	padding-top: 100px;
 	height: 935px;
+}
+h1 {
+	font-size: 60px;
+	font-weight: 800;
+	color: #0b4cda;
+	text-shadow: -1px 0 #c5c5c5, 0 2px black, 2px 0 black, 0 -2px black;
+}
+h2 {
+	font-size: 40px;
 }
 .boxes {
 	display: flex;
@@ -111,10 +120,21 @@ a {
 	place-items: center;
 }
 .box {
-	border: 3px solid #fa7d05;
-	border-radius: 50px;
+	border: 5px solid #fa7d05;
+	border-radius: 70px;
 	width: 30%;
 	margin: 50px;
+	padding: 15px;
+}
+.number {
+	font-size: 30px;
+	font-weight: 900;
+	color: #0b4cda;
+	text-shadow: -1px 0 #c5c5c5, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.box p {
+	font-size: 20px;
+	font-weight: bold;
 }
 footer {
 	background-color: #e9f8ff;
