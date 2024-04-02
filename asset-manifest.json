@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/btoshi/static/css/main.efe57eef.css",
+    "main.js": "/btoshi/static/js/main.7f576d86.js",
+    "static/js/453.76a69a2a.chunk.js": "/btoshi/static/js/453.76a69a2a.chunk.js",
+    "static/media/background.png": "/btoshi/static/media/background.6e3db2f55a43cacd623e.png",
+    "static/media/btoshi_letters.png": "/btoshi/static/media/btoshi_letters.05aadb0d9e304227e550.png",
+    "index.html": "/btoshi/index.html",
+    "main.efe57eef.css.map": "/btoshi/static/css/main.efe57eef.css.map",
+    "main.7f576d86.js.map": "/btoshi/static/js/main.7f576d86.js.map",
+    "453.76a69a2a.chunk.js.map": "/btoshi/static/js/453.76a69a2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efe57eef.css",
+    "static/js/main.7f576d86.js"
+  ]
+}
