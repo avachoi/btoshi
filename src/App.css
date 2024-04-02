@@ -3,14 +3,13 @@
 	margin: auto;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 }
 .homePage {
 	background-image: url("background.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
-	border: 1px solid;
 	display: flex;
 }
 .App-logo {
@@ -19,13 +18,13 @@
 }
 
 .App-header {
-	min-height: 5vh;
+	/* min-height: 2vh; */
 	display: flex;
 	position: fixed;
 	justify-content: space-between;
 	color: white;
 	padding: 50px 40px 40px 40px;
-	width: calc(100% - 8em);
+	/* width: calc(100% - 8em); */
 	color: #fff;
 }
 nav {
@@ -51,8 +50,6 @@ nav a:hover {
 	margin-left: 50%;
 	margin-right: 3%;
 	padding-top: 600px;
-
-	background-size: 1900px;
 }
 
 .App-link {
@@ -156,10 +153,126 @@ footer {
 }
 .footerLetters {
 	width: 200px;
-	height: 650x;
 	display: block;
 	background-image: url("btoshi_letters.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin-left: 5px;
+}
+@media screen and (max-width: 1080px) {
+	body {
+		background-color: #ebfbfb;
+	}
+	.homePage {
+		background-size: cover;
+		display: flex;
+		background-image: url("background.png");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		height: 60vh;
+		margin: 0px;
+	}
+	.App-header {
+		display: flex;
+		position: absolute;
+		flex-direction: column;
+		align-items: center;
+		color: white;
+		padding: 50px 40px 40px 40px;
+		/* width: calc(100% - 8em); */
+		color: #fff;
+	}
+	.test {
+		width: 150px;
+		height: 40px;
+		display: block;
+		background-image: url("btoshi_letters.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	nav .navItem {
+		display: none;
+	}
+	nav {
+		display: flex;
+		padding-left: 0px;
+	}
+	nav a img {
+		width: 40px;
+		margin: 0px;
+	}
+	nav a {
+		margin: 10px;
+	}
+	#home {
+		margin: 0px;
+		padding-top: 200px;
+		height: 300px;
+	}
+
+	#tokenomics {
+		padding-top: 50px;
+		height: 535px;
+	}
+	h1 {
+		font-size: 30px;
+		font-weight: 800;
+		color: #0b4cda;
+		text-shadow: -1px 0 #c5c5c5, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	.boxes {
+		display: flex;
+		flex-direction: column;
+		place-items: center;
+	}
+	.box {
+		border: 3px solid #fa7d05;
+		border-radius: 50px;
+		width: 75%;
+		margin: 50px;
+		padding: 15px;
+	}
+	.number {
+		font-size: 20px;
+		font-weight: 900;
+		color: #0b4cda;
+		text-shadow: -1px 0 #c5c5c5, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+	.box p {
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.address {
+		font-size: xx-small;
+		width: auto;
+	}
+	footer {
+		background-color: #fff;
+		height: 160px;
+		padding: 30px;
+		margin: 0px;
+	}
+	.social {
+		display: flex;
+		justify-content: center;
+		margin: 20px;
+	}
+	.social img {
+		padding: 10px;
+		width: 40px;
+	}
+	.footerLogo {
+		display: flex;
+		justify-content: center;
+	}
+	.footerLetters {
+		width: 200px;
+		display: block;
+		background-image: url("btoshi_letters.png");
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
 }

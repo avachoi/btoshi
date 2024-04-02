@@ -50,7 +50,9 @@ function App() {
 					</div>
 					<div className="box">
 						<h2>Token Address</h2>
-						<p>0x9A3b7959e998BF2B50EF1969067D623877050D92</p>
+						<p className="address">
+							0x9A3b7959e998BF2B50EF1969067D623877050D92
+						</p>
 					</div>
 				</div>
 			</div>
